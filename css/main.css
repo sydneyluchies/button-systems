@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.btn {
+  background-color: limegreen;
+  border-color: limegreen;
+}
+
+.btn-ghost {
+  background-color: transparent;
+}
+
+.btn-light {
+  background-color: lightgreen;
+  border-color: lightgreen;
+}
+
+.btn:hover {
+  background-color: darkgreen;
+  border-color: darkgreen;
+}
+
+.bth-ghost:hover {
+  background-color: transparent;
+}
